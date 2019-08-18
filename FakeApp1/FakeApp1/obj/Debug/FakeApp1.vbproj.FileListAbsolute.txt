@@ -1,0 +1,12 @@
+C:\Users\mehdi\Desktop\FakeApp\FakeApp1\FakeApp1\obj\Debug\FakeApp1.vbprojAssemblyReference.cache
+C:\Users\mehdi\Desktop\FakeApp\FakeApp1\FakeApp1\obj\Debug\FakeApp1.Resources.resources
+C:\Users\mehdi\Desktop\FakeApp\FakeApp1\FakeApp1\obj\Debug\FakeApp1.vbproj.GenerateResource.cache
+C:\Users\mehdi\Desktop\FakeApp\FakeApp1\FakeApp1\obj\Debug\FakeApp1.vbproj.CoreCompileInputs.cache
+C:\Users\mehdi\Desktop\FakeApp\FakeApp1\FakeApp1\obj\Debug\FakeApp1.Form1.resources
+C:\Users\mehdi\Desktop\FakeApp\FakeApp1\FakeApp1\bin\Debug\Wifi Cracker By Unknown V2.exe.config
+C:\Users\mehdi\Desktop\FakeApp\FakeApp1\FakeApp1\bin\Debug\Wifi Cracker By Unknown V2.exe
+C:\Users\mehdi\Desktop\FakeApp\FakeApp1\FakeApp1\bin\Debug\Wifi Cracker By Unknown V2.pdb
+C:\Users\mehdi\Desktop\FakeApp\FakeApp1\FakeApp1\bin\Debug\Wifi Cracker By Unknown V2.xml
+C:\Users\mehdi\Desktop\FakeApp\FakeApp1\FakeApp1\obj\Debug\Wifi Cracker By Unknown V2.exe
+C:\Users\mehdi\Desktop\FakeApp\FakeApp1\FakeApp1\obj\Debug\Wifi Cracker By Unknown V2.xml
+C:\Users\mehdi\Desktop\FakeApp\FakeApp1\FakeApp1\obj\Debug\Wifi Cracker By Unknown V2.pdb
