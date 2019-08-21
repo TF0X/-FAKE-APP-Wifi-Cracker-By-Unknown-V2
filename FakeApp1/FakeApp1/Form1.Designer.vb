@@ -32,16 +32,21 @@ Partial Class Form1
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
+        Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
+        Me.Timer4 = New System.Windows.Forms.Timer(Me.components)
+        Me.Timer5 = New System.Windows.Forms.Timer(Me.components)
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Timer6 = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Sylfaen", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(0, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(592, 23)
+        Me.Label1.Size = New System.Drawing.Size(540, 23)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Wifi Cracker "
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -51,7 +56,7 @@ Partial Class Form1
         Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(261, 65)
+        Me.Button1.Location = New System.Drawing.Point(232, 65)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(134, 37)
         Me.Button1.TabIndex = 1
@@ -82,7 +87,7 @@ Partial Class Form1
         Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(414, 65)
+        Me.Button2.Location = New System.Drawing.Point(372, 65)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(142, 37)
         Me.Button2.TabIndex = 4
@@ -92,9 +97,9 @@ Partial Class Form1
         'ProgressBar1
         '
         Me.ProgressBar1.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.ProgressBar1.Location = New System.Drawing.Point(15, 117)
+        Me.ProgressBar1.Location = New System.Drawing.Point(15, 124)
         Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(556, 23)
+        Me.ProgressBar1.Size = New System.Drawing.Size(499, 23)
         Me.ProgressBar1.TabIndex = 5
         '
         'Timer1
@@ -105,12 +110,39 @@ Partial Class Form1
         '
         Me.Timer2.Interval = 150
         '
+        'Timer3
+        '
+        Me.Timer3.Interval = 10000
+        '
+        'Timer4
+        '
+        Me.Timer4.Interval = 50
+        '
+        'Timer5
+        '
+        Me.Timer5.Interval = 1000
+        '
+        'Label3
+        '
+        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.White
+        Me.Label3.Location = New System.Drawing.Point(0, 4)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(204, 19)
+        Me.Label3.TabIndex = 6
+        Me.Label3.Text = "DATE"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Timer6
+        '
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(36, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(592, 207)
+        Me.ClientSize = New System.Drawing.Size(540, 207)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label2)
@@ -134,4 +166,9 @@ Partial Class Form1
     Friend WithEvents ProgressBar1 As ProgressBar
     Friend WithEvents Timer1 As Timer
     Friend WithEvents Timer2 As Timer
+    Friend WithEvents Timer3 As Timer
+    Friend WithEvents Timer4 As Timer
+    Friend WithEvents Timer5 As Timer
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Timer6 As Timer
 End Class

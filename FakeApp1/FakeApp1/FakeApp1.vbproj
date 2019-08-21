@@ -123,7 +123,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ENC5M.EXE" />
+    <None Include="Resources\ENC5M.exe" />
     <Content Include="wifi.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
